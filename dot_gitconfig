@@ -1,0 +1,10 @@
+[user]
+	email = ilhamfazri3rd@gmail.com
+	name = ilhamfzri
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	pager = cat
