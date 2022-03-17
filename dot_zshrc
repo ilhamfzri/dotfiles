@@ -93,7 +93,7 @@ plugins=(
     macos
     python
     timer
-    
+    aliases
 )
 
 source $ZSH/oh-my-zsh.sh
