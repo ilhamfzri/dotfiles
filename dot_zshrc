@@ -31,6 +31,7 @@ plugins=(
     timer
     aliases
     gitignore
+    thefuck
 )
 
 #Run oh-my-zsh
