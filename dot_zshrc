@@ -34,5 +34,8 @@ plugins=(
     thefuck
 )
 
+export QT_MAC_WANTS_LAYER=1
+export PYTHONDONTWRITEBYTECODE=1
+
 #Run oh-my-zsh
 source $ZSH/oh-my-zsh.sh
